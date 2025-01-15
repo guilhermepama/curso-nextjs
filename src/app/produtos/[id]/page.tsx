@@ -12,7 +12,7 @@ export default async function DetailProduct( {
     return (
         <div>
             <h1 className="m-4 font-bold text-xl">Detalhe do Produto</h1>
-            <Suspense fallback= {<h1 clas>Carregando...</h1>}>
+            <Suspense fallback= {<h1>Carregando...</h1>}>
             <ProdInfo id={id} />
             </Suspense>
         </div>
