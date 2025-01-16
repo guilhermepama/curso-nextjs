@@ -1,4 +1,5 @@
 import { Metadata } from "next"
+import PromoSection from "./components/promo-section"
 
 
 export const metadata: Metadata = {
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
 export default function Home () {
     return (
         <div className="p-4">
-            <h1>Home</h1>
+            <PromoSection />
         </div>
     )
 }

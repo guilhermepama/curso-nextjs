@@ -1,5 +1,4 @@
 import { Suspense } from "react";
-import { ProdProps } from "../page";
 import { ProdInfo } from "./_components/produto";
 
 export default async function DetailProduct( {

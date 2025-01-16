@@ -1,4 +1,4 @@
-import { ProdProps } from "../../page";
+import type { ProdProps } from "../../page";
 import Image from "next/image";
 
 export async function ProdInfo ( { id }: { id: string }) {
@@ -12,7 +12,7 @@ export async function ProdInfo ( { id }: { id: string }) {
         <div>
             <div className="m-4 p-5 border border-gray-200 rounded-md">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
-                    {data.images.map((image, index) =>( 
+                    {data.images.map((image: string, index: number) =>( 
                         <Image
                         key={index}
                         src={image}

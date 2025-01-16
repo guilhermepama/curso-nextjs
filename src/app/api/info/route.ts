@@ -7,4 +7,4 @@ export async function GET () {
         description: 'Anel banhado ouro',
         price: 165.50
     })
-    }
+    }   
