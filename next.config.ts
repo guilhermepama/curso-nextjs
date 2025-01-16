@@ -1,13 +1,9 @@
-import type { NextConfig } from "next";
+import { NextConfig } from "next";
 
-
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
-
-module.exports = {
+const nextConfig = {
+  experimental: {
+    appDir: true,
+  },
   images: {
     remotePatterns: [
       {
@@ -17,4 +13,7 @@ module.exports = {
       },
     ],
   },
+
 };
+
+export default nextConfig;
