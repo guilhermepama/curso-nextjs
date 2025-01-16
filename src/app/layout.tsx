@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Header } from "./components/header";
+import NavHeader from "./components/header";
 import { Metadata } from "next";
 
 
@@ -30,11 +30,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body
         className={`antialiased`}
       >
-        <Header /> 
+        <NavHeader /> 
         {children}
       </body>
     </html>

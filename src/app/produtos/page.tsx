@@ -32,7 +32,7 @@ export default async function ProductsPage () {
     console.log(data)
     
     return (
-      <div className="p-4">
+      <div className="p-4 max-w-4xl m-auto" >
             <form className="flex gap-2 my-4">
                 <input
                     type="text"

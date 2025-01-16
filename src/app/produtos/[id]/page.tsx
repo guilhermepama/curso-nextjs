@@ -10,7 +10,7 @@ export default async function DetailProduct( {
     const { id } = await params;
 
     return (
-        <div>
+        <div className="p-4 max-w-4xl m-auto">
             <h1 className="m-4 font-bold text-xl">Detalhe do Produto</h1>
             <Suspense fallback= {<h1>Carregando...</h1>}>
             <ProdInfo id={id} />
